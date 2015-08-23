@@ -1,0 +1,13 @@
+body  {
+  font-size: calc((12px - 420px * 0.010465116279069767) + 1.0465116279069768vw);
+}
+@media screen and (max-width: 420px)  {
+  body  {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1280px)  {
+  body  {
+    font-size: 21px;
+  }
+}

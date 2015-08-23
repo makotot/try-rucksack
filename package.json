@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/rucksack-css/bin/cmd.js src/index.css index.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/makotot/try-rucksack/issues"
   },
-  "homepage": "https://github.com/makotot/try-rucksack#readme"
+  "homepage": "https://github.com/makotot/try-rucksack#readme",
+  "devDependencies": {
+    "rucksack-css": "^0.6.6"
+  }
 }
